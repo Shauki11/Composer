@@ -3,6 +3,6 @@
   "type": "project",
   "description": "Yii 1 application",
   "require": {
-    "yiisoft/yii": "*",
+    "yiisoft/yii": "*"
   }
 }

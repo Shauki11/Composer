@@ -1,0 +1,17 @@
+2018/09/29 10:54:48 [error] [php] Undefined variable: model (C:\xampp\htdocs\composer\Composer\protected\views\site\login.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\composer\Composer\protected\controllers\SiteController.php(112): SiteController->render()
+#3 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionUs()
+#4 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\composer\Composer\vendor\yiisoft\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\composer\Composer\index.php(13): CWebApplication->run()
+REQUEST_URI=/composer/composer/index.php?r=site/us
+in C:\xampp\htdocs\composer\Composer\protected\views\site\login.php (28)
+in C:\xampp\htdocs\composer\Composer\protected\controllers\SiteController.php (112)
+in C:\xampp\htdocs\composer\Composer\index.php (13)
