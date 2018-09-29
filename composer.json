@@ -1,0 +1,8 @@
+{
+  "name": "shauki11/composer",
+  "type": "project",
+  "description": "Yii 1 application",
+  "require": {
+    "yiisoft/yii": "*",
+  }
+}
